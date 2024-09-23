@@ -1,0 +1,178 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+:root {
+  /* --primary-colors --*/
+  --white-ish:#F9F7F7;
+  --light-gray: #DBE2EF;
+  --bluish-gray: #e4e9f1;
+  --blue-light:#669bbc;
+  --blue-medium: #0077b6;
+  --blue-medium-rgb: rgb(0, 119, 182);
+  --blue-dark:#0f4c75;
+  --dark-b: #003566;
+  --gray-black: #415a77;
+  --darker-b:#1B262C;
+
+
+
+  /*monarch-blue*/
+  --monarch-blue:#003057;
+  --monarch-blue-20w:#335979;
+  --monarch-blue-80w:#b3c1cd;
+  --monarch-blue-90w:#e6eaee;
+
+
+  /*logo-blue*/
+  --logo-blue:#2B2D64;
+  --logo-blue-30w: #6b6c93;
+
+
+  /*logo-green*/
+  --logo-green:#3B5455;
+  --logo-green-20w:#627677;
+  --logo-green-40b:#233233;
+
+
+  /*logo-red*/
+  --logo-red:#D91D28;
+  --logo-red-60w:#f0a5a9
+
+
+
+
+  /* https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e */
+}
+
+html, body {
+    height:100%;
+}
+
+/* Use the root variable for primary color in your CSS */
+body {
+  background-color: var(--monarch-blue-90w);
+
+   font-family: "Open Sans", sans-serif; 
+  /*font-family: 'Ubuntu Sans', sans-serif;*/
+  /*color: var(--gray-black);*/
+  /* padding-bottom: 600px; */  
+}
+
+nav {
+	background-color:var(--monarch-blue);
+    /* height: 5rem; */
+}
+
+.navbar-brand{
+	color:var(--monarch-blue-80w) !important;
+	font-size:1.75rem !important;
+    font-weight: 700;
+}
+
+.nav-link{
+	color:var(--light-gray) !important;
+}
+
+.navbar-expand-lg{
+    font-size:1.2rem !important;
+}
+
+
+/* buttons */
+
+
+
+
+#header_middle_letter{
+    color: var(--monarch-blue-80w);
+}
+
+a {
+  color:var(--monarch-blue-80w);
+}
+
+a:hover {
+  color: var(--logo-blue-30w) !important;
+   text-decoration: none !important; 
+  /* font-size:1.3rem !important; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+   /*font-family: "Raleway", sans-serif;*/
+   
+   /*font-family: 'Ubuntu Sans', sans-serif;*/
+}
+
+
+/* footer */
+
+.footer-lemos {
+  background-color: var(--monarch-blue);
+  font-size: smaller;
+}
+
+.footer-lemos-nifme {
+    background-color: #1B262C;
+    font-size: smaller;
+  }
+
+.footer-icons{
+    color: var(--monarch-blue-80w);   
+}
+
+.footer-icons:hover{
+    color: var(--logo-blue-30w);   
+}
+
+
+#page-container {
+    position: relative;
+    /* min-height: 94%; */
+    min-height:93vh;
+  }
+  
+#content-wrap {
+    /* padding-bottom: 100px;    Footer height */
+    padding-bottom: 2.5rem;    /*Footer height*/
+    /* padding-top: 5rem; */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: 100px;            Footer height */
+    height: 2.5rem;            /*Footer height*/
+    
+}
+
+
+.dropdown-menu{
+  background-color: var(--logo-green);
+  color:var(--monarch-blue-80w);
+}
+
+.dropdown-item{
+  background-color: var(--logo-green);
+  color:var(--monarch-blue-80w);
+}
+
+.dropdown-item:hover{
+  background-color: var(--logo-green-20w);
+  color:var(--logo-green-40b) !important;
+}
+
+.carousel-caption{
+/*    background-color: var(--logo-green-20w);
+    opacity: 0.75;*/
+    background-color:rgba(0,0,0,0.4);
+
+}
+
+.carousel-item img {
+  width: 100vw;
+  height: 92vh;
+  object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
