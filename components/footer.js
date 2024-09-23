@@ -21,7 +21,6 @@ class Footer extends HTMLElement {
                     <p class="my-0 pt-0">
                         <a href=""><i class="mr-3 footer-icons fa-solid fa-house" aria-hidden="true"></i></a>
                         <a href="" target="_blank"><i class="mr-3 fab footer-icons fa-facebook" aria-hidden="true"></i></a>
-                        <a href="" target="_blank"><i class="mr-3 fab footer-icons fa-youtube" aria-hidden="true"></i></a>
                         <a href="/pages/events.html" target=""><i class="mr-3 footer-icons fa-solid fa-calendar-days" aria-hidden="true"></i></a>
                         <a href="" target="_blank"><i class="footer-icons fa-solid fa-address-book" aria-hidden="true"></i></a>
                     </p>
