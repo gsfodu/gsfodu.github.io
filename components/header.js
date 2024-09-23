@@ -8,7 +8,7 @@ class Header extends HTMLElement {
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <h1><a class="navbar-brand" href="/">
-        <img src="/assets/img/GSF_logo.jpg" width="40" height="40" class="d-inline-block mr-2" alt=""> Global Student Friendship</a></h1>
+        <img src="/assets/img/GSF_logo.jpg" width="40" height="40" class="d-inline-block mr-2" alt=""> <span class="d-none d-md-inline-block">Global Student Friendship</span><span class="d-inline-block d-md-none">GSF ODU</span></a></h1>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
