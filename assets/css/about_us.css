@@ -65,7 +65,7 @@ a:hover {
     border: var(--blue-light) 2px solid;
     max-width: 200px;
     min-width: 100px;
-	border-radius: 5px;
+    border-radius: 5px;
 }
 
 .img-lemos{
@@ -82,17 +82,17 @@ a:hover {
 }
 
 .card{
-	border: 1px solid var(--blue-light);
-/* 	background-color: var(--blue-medium); */
-	background-color: var(--bluish-gray);
-	
+    border: 1px solid var(--blue-light);
+/*  background-color: var(--blue-medium); */
+    background-color: var(--bluish-gray);
+    
 }
 
 
 .btn-blue{
     color: var(--white-ish) !important;
     background-color: var(--blue-light);
-	border: 2px solid var(--blue-medium);
+    border: 2px solid var(--blue-medium);
 }  
 
 .btn-blue > a{
