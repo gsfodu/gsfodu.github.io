@@ -22,5 +22,8 @@
   color: var(--logo-green) !important;
 }
 
+h3{
+  color: var(--monarch-blue);
+}
 
 
