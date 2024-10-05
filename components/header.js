@@ -42,6 +42,9 @@ class Header extends HTMLElement {
               <a class="nav-link" href="/pages/gallery.html">Gallery</a>
             </li>
             <li class="nav-item mr-2">
+              <a class="nav-link" href="/pages/gsf_alumni.html">GSF Alumni</a>
+            </li>
+            <li class="nav-item mr-2">
               <a class="nav-link" href="/pages/contact_us.html">Contact Us</a>
             </li> 
           </ul>

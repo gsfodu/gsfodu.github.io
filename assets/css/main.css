@@ -19,6 +19,7 @@
 
   /*monarch-blue*/
   --monarch-blue:#003057;
+  --monarch-blue-10w:#1a4568;
   --monarch-blue-20w:#335979;
   --monarch-blue-80w:#b3c1cd;
   --monarch-blue-90w:#e6eaee;
@@ -32,12 +33,13 @@
   /*logo-green*/
   --logo-green:#3B5455;
   --logo-green-20w:#627677;
+  --logo-green-80w:#d8dddd;
   --logo-green-40b:#233233;
 
 
   /*logo-red*/
   --logo-red:#D91D28;
-  --logo-red-60w:#f0a5a9
+  --logo-red-60w:#f0a5a9;
 
 
 
@@ -102,6 +104,16 @@ h1, h2, h3, h4, h5, h6 {
    /*font-family: "Raleway", sans-serif;*/
    
    /*font-family: 'Ubuntu Sans', sans-serif;*/
+}
+
+h2{
+  color: var(--monarch-blue-20w);
+  font-weight: 600;
+}
+
+h3{
+  color: var(--monarch-blue-20w);
+  font-weight: 600;
 }
 
 h4{
@@ -188,6 +200,10 @@ h5{
   object-fit: cover; /* Ensures the image covers the entire area without distortion */
 }
 
+.h3-carousal{
+  color:var(--monarch-blue-90w);
+}
+
 @media (max-width: 767px) {
   .carousel-caption {
     position: absolute;
@@ -202,3 +218,68 @@ h5{
   }
 }
 
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--monarch-blue-80w);  
+}
+
+
+.i-icons{
+    /* color:var(--logo-green-40b); */
+    color: var(--monarch-blue-20w);
+}
+
+/*.i-icons:hover{
+     color:var(--logo-green-40b); 
+    color: red !important; 
+}*/
+
+.btn-outline-primary-{
+  /*color: red !important;*/
+  background-color: var(--logo-green);
+  color:var(--monarch-blue-80w);
+  border:none;
+}
+
+.btn-outline-primary-:hover {
+/*    background-color: var(--logo-green-20w);
+    color:var(--logo-green-40b) !important;*/
+    /*border: 1px solid red;*/
+    border:none;
+  background-color: var(--logo-green-20w);
+  color:var(--logo-green-40b) !important;
+   text-decoration: none !important; 
+  }
+
+.btn-outline-primary-:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+  }
+  
+a{
+    color:var(--logo-green-40b);
+}
+
+
+
+
+  /* Medium and above (>= 768px): Show border between columns */
+  @media (min-width: 768px) {
+    .custom-border:not(:last-child) {
+      border-right: 1px solid #ccc; /* Add right border between columns */
+    }
+  }
+
+  /* Small screens (< 768px): Show border below each column */
+  @media (max-width: 767.98px) {
+    .custom-border {
+      border-bottom: 1px solid #ccc; /* Add bottom border for each column */
+    }
+
+    /* Optional: Remove bottom border on the last column */
+    .custom-border:last-child {
+      border-bottom: none;
+    }
+  }

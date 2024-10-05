@@ -27,3 +27,11 @@ h3{
 }
 
 
+a{
+    color:var(--logo-green-40b);
+}
+
+.img-fluid{
+    border: 2px solid var(--logo-green-20w);
+    border-radius: 8px;
+}

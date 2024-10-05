@@ -36,13 +36,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
     <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/contact_us.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/fontawesome651.all.min.css">
 
     <!-- Google Fonts CSS -->
 <!--     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
         rel="stylesheet"> -->
 
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
 </head>
 
@@ -51,10 +52,95 @@
 
     <div id="page-container">
         <header-component></header-component>
+    
         <div class="container mt-4">
-            <h4 style="color:var(--logo-green)">Sorry! This page is currently under construction</h4>
+            <!-- <h4 style="color:var(--logo-green)">Sorry! This page is currently under construction</h4> -->
+            <h2>Contact Us</h2>
+            <div class="line mb-4"></div>
 
+            <!-- 
+                <div>
+                    <form id="contactForm" action="https://formsubmit.co/rochana.odu@gmail.com" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div> -->
+                
+                <!-- 
+                    This is a working contact form. To receive email, 
+                    Replace YOUR_ACCESS_KEY_HERE with your actual Access Key.
+
+                    Create Access Key here 👉 https://web3forms.com/ -->
+            <div class="pb-5">
+
+                <section class="p-4 contact-section">
+                    <div class="contact-intro">
+                        <!-- <h2 class="contact-title">Get in Touch</h2> -->
+                        <h6 class="contact-description">
+                            Fill out the form below and we'll get back to you as soon as possible.
+
+                        </h6>
+                        <p class="contact-description pt-0 mt-0">
+                            <!-- <h6 class="mt-0 pt-0">Fill out the form below and we'll get back to you as soon as possible.</h6> -->
+                        </p>
+                    </div>
+                    
+                    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        
+                        <input type="hidden" name="access_key" value="7031df20-5caa-4e0b-acff-9ea6f822cab4" />
+                        <!-- <input type="hidden" name="subject" value="New Contact Form Submission via GSF Website" /> -->
+                        <input type="hidden" name="from_name" value="Email via GSF website" />
+                        <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+                        
+                        <div class="form-group-container">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input id="name" name="name" class="form-input" placeholder="Your name" type="text" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input id="email" name="email" class="form-input" placeholder="Your email" type="email" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input id="subject" name="subject" class="form-input" placeholder="Subject" type="text" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-textarea" id="message" name="message" placeholder="Your message" required></textarea>
+                            </div>
+                        </div>
+                        <button class="form-submit" type="submit">Send Message</button>
+                    </form>
+                    
+                </section>
+            </div>
+
+            <div class="mb-5 text-justify">
+                For more information and updates on our events and activities, please feel free to visit our social media pages or get in touch with us through the above form, email or phone. We look forward to welcoming you into our Global Student Friendship community!
+            </div>
+
+            <div class="row pb-5 mb-4 text-center">
+                <div class="col-md-3 mb-4 pb-3 custom-border"><i class="fas fa-map-marked-alt fa-2x i-icons mb-2"></i><h4>Address</h4><a href="https://maps.app.goo.gl/Auy7ecrKK4CXy5Ry8" target="_blank">1241 W 43rd St. Norfolk, VA 23508</a></div>
+                <div class="col-md-3 mb-4 pb-3 custom-border"><i class="fa-solid fa-phone-volume fa-2x i-icons mb-2"></i><h4>Phone</h4>+1 (757)-500-7865</div>
+                <div class="col-md-3 mb-4 pb-3 custom-border"><i class="fa-regular fa-envelope fa-2x i-icons mb-2"></i><h4>Email</h4><a href="mailto:gsfodu@gmail.com">gsfodu@gmail.com</a></div>
+                <div class="col-md-3 mb-4 pb-3 custom-border"><i class="fa-solid fa-globe fa-2x i-icons mb-2"></i><h4>Connect</h4><a href="https://www.facebook.com/globalstudentfriendship" target="_blank"><i class="fab fa-facebook i-icons"></i></a><a href="https://www.instagram.com/global_student_friendship" target="_blank" class="ml-3"><i class="fab fa-instagram i-icons"></i></a></div>
+            </div>
+                
         </div>
+
         <div id="footer">
 
             <footer-component></footer-component>
