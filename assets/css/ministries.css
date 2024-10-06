@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+.member-image{
+  max-width: 200px;
+  height: auto;
+  /*filter: invert(10%) sepia(80%) saturate(5000%) hue-rotate(180deg);*/
+  
+}
+
+.rounded-circle{
+border: 3px solid var(--monarch-blue);
+border-radius: 50% !important;
+}
+
+.card{
+  background-color: var(--card-bakground);
+}
+
+.card-text{
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.card-title{
+  color: var(--monarch-blue);
+  font-size: 0.98rem;
+  text-align: center;
+}
+
+.position{
+  color: var(--logo-green-20w);
+  font-size: 0.85rem;
+  text-align: center; 
+}
