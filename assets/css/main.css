@@ -24,6 +24,8 @@
   --monarch-blue-80w:#b3c1cd;
   --monarch-blue-90w:#e6eaee;
 
+  --card-bakground:#dee6ed;
+
 
   /*logo-blue*/
   --logo-blue:#2B2D64;
@@ -39,6 +41,7 @@
 
   /*logo-red*/
   --logo-red:#D91D28;
+  --logo-red-dark:#9f0a12;
   --logo-red-60w:#f0a5a9;
 
 
@@ -283,3 +286,8 @@ a{
       border-bottom: none;
     }
   }
+
+
+#collapseContent-8{
+  border-radius: 20px;
+}
