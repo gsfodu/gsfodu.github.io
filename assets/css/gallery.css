@@ -1,0 +1,10 @@
+.date {
+  color: var(--logo-green-20w);
+  font-size: 0.75rem;
+  text-align: center; 
+}
+
+.insta-post{
+	border: 3px solid var(--logo-green-20w);
+    border-radius: 10px;
+}
